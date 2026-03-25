@@ -2,6 +2,7 @@ import customtkinter as ctk
 from zk import ZK
 import threading
 import time
+import os
 
 # Set UI Theme
 ctk.set_appearance_mode("Dark")
@@ -13,6 +14,15 @@ class ZKSyncApp(ctk.CTk):
 
         self.title("ZK Biometric Multi-Device Syncer")
         self.geometry("700x600")
+
+        # --- ADD LOGO TO TITLE BAR ---
+        try:
+            # Path to your icon file
+            icon_path = "zkt-syncer-logo.ico"
+            if os.path.exists(icon_path):
+                self.iconbitmap(icon_path)
+        except Exception as e:
+            print(f"Could not load icon: {e}")
 
         # --- UI LAYOUT ---
         # Header
