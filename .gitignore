@@ -205,3 +205,9 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+vapi/
+oldoutput/
+anv/
+zk_users_fingerprints.xlsx
+234.xlsx
+235.xlsx
