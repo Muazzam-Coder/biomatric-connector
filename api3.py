@@ -3,9 +3,9 @@ import requests
 from zk import ZK
 
 # --- CONFIGURATION ---
-DEVICE_IP = '172.172.173.232'
+DEVICE_IP = '172.172.173.234'
 DEVICE_PORT = 4370
-FLOOR_ID = 2 
+FLOOR_ID = 3 
 
 # SERVER DETAILS
 # Replace the path below with the actual URL pointing to CameraCheckInView

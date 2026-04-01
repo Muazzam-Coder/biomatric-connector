@@ -3,7 +3,7 @@ from zk import ZK
 # --- CONFIGURATION ---
 DEVICE_IP = '172.172.173.235'  # Change to your machine IP
 DEVICE_PORT = 4370
-USER_TO_DELETE = '1501'         # The ID you want to remove
+USER_TO_DELETE = '1182'         # The ID you want to remove
 
 zk = ZK(DEVICE_IP, port=DEVICE_PORT, timeout=5)
 conn = None
